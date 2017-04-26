@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" href="css/button.css">
+		<!--<link rel="stylesheet" href="css/modal.css">-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="css/custom-styles.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/component.css">
+        <link rel="stylesheet" href="css/font-awesome-ie7.css">
+
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="js/login.js"></script>
+    </head>
+    <body>
+
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+            <div class="container">
+                <div class="site-header">
+                    <div class="logo">
+                        <h1>Ticket-Palooza</h1>
+                    </div>
+                    <div class="menu">
+                        <div class="navbar">
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <i class="fw-icon-th-list"></i>
+                            </a>
+                            <div class="nav-collapse collapse">
+                                <ul class="nav">
+								
+								
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Projects</a></li>
+                                    <li><a href="#">Contact</a></li>
+									<!-- Trigger/Open The Modal -->
+									<button id="myBtn" class = "button">Login</button>
+									<!-- The Modal -->
+									<div id="myModal" class="modal">
+									
+
+									  <!-- Modal content -->
+									  <div class="modal-content">
+
+										<span class="close">&times;</span>
+										<p>Login</p>
+										<form action="php/testlogin.php" > <!--method="post"-->
+											Username: <input type="text" name="username" value="username"><br>
+											Password: <input type="text" name="password" value="password"><br>
+											<input type="submit" ><!--value="Submit"-->
+											</form>
+									  </div>
+
+									</div>
+								</ul>
+                            </div><!--/.nav-collapse -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="banner">
+                    <div class="carousel slide" id="myCarousel">
+                                    <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/banner-image.jpg" alt="" class="bw">
+                                <div class="carousel-caption">
+                                  <h1>ipsum dolor sit amet lat</h1>
+                                  <h2>Aliquam tincidunt mauris eu risus</h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a data-slide="prev" href="#myCarousel" class="carousel-control left"><i class="fw-icon-chevron-left"></i></a>
+                        <a data-slide="next" href="#myCarousel" class="carousel-control right"><i class="fw-icon-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+		
+    </body>
+</html>
